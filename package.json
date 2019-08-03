@@ -1,0 +1,28 @@
+{
+  "name": "backstr8girls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "productName": "BackStr8-Scan",
+    "mac": {
+      "category": "com.app.backstr"
+    },
+    "dmg": {
+      "title": "BackStr8-Scan",
+      "icon": "./resources/installer/Icon.icns"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "electron-builder": "^21.2.0"
+  }
+}
