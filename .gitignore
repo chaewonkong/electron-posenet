@@ -176,3 +176,5 @@ $RECYCLE.BIN/
 dist/
 dist
 dist/mac/
+
+resources/
