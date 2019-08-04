@@ -3,7 +3,7 @@ let poseNet;
 let poses = [];
 
 function setup() {
-  const canvas = createCanvas(400, 300);
+  const canvas = createCanvas(800, 600);
   canvas.parent("videoContainer");
 
   // Video capture
